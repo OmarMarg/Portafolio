@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(26, 33, 45);
+    color: #eaeaea;
+}
+
+nav {
+    position: relative;
+}
+
+header {
+    position: relative;
+    background: radial-gradient(#414957 0%, #1a202c 65%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+footer {
+    background-color: rgb(43, 49, 55);
+}
+
+.card {
+    background-color: rgba(248, 244, 236, 0.246);
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.btn-outline-light:hover, .btn-outline-light:focus {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}

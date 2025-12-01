@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Martínez - Portafolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid d-flex flex-row mx-5">
+            <a class="navbar-brand" href="#">Omar Martínez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse show navbar-collapse d-flex flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#aboutMe">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#techStack">Tech stack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#projects">Proyectos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-black py-3">
+        <div class="container d-flex flex-column align-items-center" id="headerContainer">
+            <img src="assets/IMG_4645.jpeg" alt="Foto Omar" class="profile-img mb-3">
+            <h1>Omar Martínez</h1>
+            <p class="lead text-center">Full Stack Developer</p>
+            <div class="container d-flex justify-content-center gap-5" id="iconLinks">
+                <button type="button" class="btn btn-outline-light">
+                    <a href="https://github.com/OmarMarg" target="_blank">GitHub</a>
+                </button>
+                <button type="button" class="btn btn-outline-light">
+                    <a href="www.linkedin.com/in/omar-marg-a48b02340" target="_blank">LinkedIn</a>
+                </button>
+                <button type="button" class="btn btn-outline-light">
+                    <a href="..." target="_blank">Currículum Vitae</a>
+                </button>
+                <button id="copy-email-btn" class="btn btn-outline-light" type="button">omarmtzarg@gmail.com</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- About me -->
+    <div class="py-3" id="aboutMe">
+        <hr class="border mx-5">
+        <h2 class="text-center">Sobre mi</h2>
+        <div class="container">
+            <p class="text-center mg-3 px-5">Soy una persona confiable, carismática y enfocada. Me gusta crear vínculos
+                genuinos y
+                trabajar de forma relajada y honesta. Disfruto colaborar, aprender y aportar siempre lo
+                mejor de mí. Busco crecer profesionalmente mientras construyo proyectos que me inspiren
+                y generen un impacto positivo.</p>
+        </div>
+    </div>
+
+    <!-- Tech Stack -->
+    <div class="py-3" id="techStack">
+        <hr class="border mx-5">
+        <h2 class="text-center">Tech Stack</h2>
+    </div>
+
+    <!-- Projects -->
+    <div class="py-3" id="projects">
+        <hr class="border mx-5">
+        <h2 class="text-center">Proyectos</h2>
+
+        <!-- Cards -->
+        <div class="container" id="cardContainer">
+            <div class="row">
+                <div class="card mx-auto my-5" style="width: 40%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto ejemplo #1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-outline-light">Ver proyecto</a>
+                    </div>
+                </div>
+                <div class="card mx-auto my-5" style="width: 40%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto ejemplo #2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-outline-light">Ver proyecto</a>
+                </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card mx-auto my-5" style="width: 40%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto ejemplo #3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-outline-light">Ver proyecto</a>
+                    </div>
+                </div>
+                <div class="card mx-auto my-5" style="width: 40%;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto ejemplo #4</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card’s content.</p>
+                        <a href="#" class="btn btn-outline-light">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-3">
+        <div class="container">
+            <p class="text-center">© 2025 Omar Martínez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
