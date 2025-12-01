@@ -1,10 +1,20 @@
 body {
-    background-color: rgb(26, 33, 45);
+    background-color: #0f1624;
     color: #eaeaea;
+}
+nav {
+    background-color: #030619;
+    border-bottom: 2px solid #787c83;
+}
+
+/* Para hacer el efecto borroso en la nav */
+.navbar-blur {
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12px) saturate(180%);
 }
 
 header {
-    background: radial-gradient(#414957 0%, #1a202c 65%);
+    background: radial-gradient(#2a364d 0%, #192333 40%, #0f1624 70%);
 }
 
 header .container {
@@ -13,11 +23,21 @@ header .container {
 }
 
 footer {
-    background-color: rgb(43, 49, 55);
+    background-color: #030619;
+    border-top: 2px solid #787c83;
+
+}
+
+ion-icon {
+    font-size: 64px;
 }
 
 .card {
     background-color: rgba(248, 244, 236, 0.246);
+}
+
+.card-title {
+    color: #eaeaea;
 }
 
 .profile-img {
@@ -26,6 +46,12 @@ footer {
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #fff;
+}
+
+.containerTechIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #iconLinks a {
