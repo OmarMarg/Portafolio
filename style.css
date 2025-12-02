@@ -7,7 +7,7 @@ nav {
     border-bottom: 2px solid #787c83;
 }
 
-/* Para hacer el efecto borroso en la nav */
+/* Para hacer el efecto difuminado en la nav */
 .navbar-blur {
     background-color: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(12px) saturate(180%);
@@ -59,21 +59,22 @@ ion-icon {
     text-decoration: none;
 }
 
-#iconLinks button:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+#reactIcon:hover, #reactIcon:focus {
+    color: #197ea4;
 }
 
-.btn-outline-light:hover, .btn-outline-light:focus {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+#htmlIcon:hover {
+    color: #f16b32;
 }
 
-.fade-text {
-    display: inline-block;
-    transition: opacity 0.3s ease;
+#cssIcon:hover {
+    color: #1e99dd;
 }
-.fade-out {
-    opacity: 0;
+
+#jsIcon:hover {
+    color: #f4da2f;
 }
-.fade-in {
-    opacity: 1;
+
+#nodeIcon:hover {
+    color: #5ea04f;
 }
